@@ -24,6 +24,7 @@ import { InicioComponent } from './inicio/inicio.component';
     BrowserModule,
     RouterModule.forRoot([
       {path:'',redirectTo: 'inicio',pathMatch:'full'},
+      {path: '', redirectTo: 'inicio',pathMatch:'full'},
       {path: 'inicio', component: InicioComponent},
       {path: 'servicios', component: ServiciosComponent},
       {path: 'sobrenosotros', component: SobrenosotrosComponent},
