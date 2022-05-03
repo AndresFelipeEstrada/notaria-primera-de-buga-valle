@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {RouterModule} from '@angular/router'
 
@@ -23,6 +23,7 @@ import { InicioComponent } from './inicio/inicio.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      {path:'',redirectTo: 'inicio',pathMatch:'full'},
       {path: 'inicio', component: InicioComponent},
       {path: 'servicios', component: ServiciosComponent},
       {path: 'sobrenosotros', component: SobrenosotrosComponent},

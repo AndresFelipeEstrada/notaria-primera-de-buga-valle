@@ -1,6 +1,9 @@
 <!-- NAVBAR -->
+
+<div class="fondo">
+  <img class="logo" src="../assets/LOGO.png" alt="">
 <header class="header">
-  <h1 class="logo"><a href="#">LOGOTIPO</a></h1>
+
   <ul class="main-nav">
     <li routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/inicio">INICO</a></li>
     <li><a routerLink="/servicios" routerLinkActive="activebutton">SERVICIOS</a></li>
@@ -8,11 +11,18 @@
     <li><a routerLink="/novedades" routerLinkActive="activebutton">NOVEDADES</a></li>
     <li><a routerLink="/contacto" routerLinkActive="activebutton">CONTACTO</a></li>
   </ul>
+
 </header>
+</div>
+
+<hr>
 
 
 
 <router-outlet></router-outlet>
+
+
+
 
 <!-- FOOTER -->
 
@@ -54,7 +64,7 @@
           <ul>
             <li>Lunes a Viernes 7:30 A.M a 12:30 P.M y 2:00 P.M a 6:00 P.M. Sábados de turno 9:00 A.M a 12:00 M.
               Ayuda
-              </li>
+            </li>
 
           </ul>
         </div>
