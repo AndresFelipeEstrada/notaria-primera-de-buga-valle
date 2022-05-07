@@ -1,52 +1,49 @@
 <!-- NAVBAR -->
 
-<div class="fondo">
-  <img class="logo" src="../assets/LOGO.png" alt="">
-<header class="header">
-
-  <ul class="main-nav">
-    <li routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/inicio">INICO</a></li>
-    <li><a routerLink="/servicios" routerLinkActive="activebutton">SERVICIOS</a></li>
-    <li><a routerLink="/sobrenosotros" routerLinkActive="activebutton">SOBRE NOSOTROS</a></li>
-    <li><a routerLink="/novedades" routerLinkActive="activebutton">NOVEDADES</a></li>
-    <li><a routerLink="/contacto" routerLinkActive="activebutton">CONTACTO</a></li>
-  </ul>
-
-</header>
-</div>
-
-<hr>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img class="navbar-brand logo img-responsive" src="../assets/LOGO.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav navbar-center">
+        <li class="nav-item active text-center" aria-current="page" routerLinkActive="activebutton"
+          [routerLinkActiveOptions]="{exact: true}"><a class="nav-link active" aria-current="page"
+            routerLink="/inicio">INICO</a></li>
+        <li class="nav-item text-center"><a class="nav-link" routerLink="/servicios"
+            routerLinkActive="activebutton">SERVICIOS</a></li>
+        <li class="nav-item text-center"><a class="nav-link" routerLink="/sobrenosotros"
+            routerLinkActive="activebutton">SOBRE NOSOTROS</a></li>
+        <li class="nav-item text-center"><a class="nav-link" routerLink="/novedades"
+            routerLinkActive="activebutton">NOVEDADES</a></li>
+        <li class="nav-item text-center"><a class="nav-link" routerLink="/contacto"
+            routerLinkActive="activebutton">CONTACTO</a></li>
+      </ul>
+    </div>
+    <img class="navbar-brand notario img-responsive" src="../assets/NOTARIO.png" alt="">
+  </div>
+</nav>
 
 
 <router-outlet></router-outlet>
 
 
-
-
 <!-- FOOTER -->
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Untitled</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-</head>
-
 
 <div class="footer-clean">
   <footer>
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-sm-4 col-md-3 item">
+      <div class="row justify-content-around">
+        <div class="col-sm- col-md-3 item">
           <h3>Direccion:</h3>
           <ul>
-            <li>Carrera 15 N° 6 - 51/55</li>
+            <li>Carrera 15 # 6-47/51</li>
           </ul>
           <h3>Telefono:</h3>
           <ul>
-            <li>57+(2)2371062</li>
+            <li>602 2371062</li>
           </ul>
         </div>
         <div class="col-sm-4 col-md-3 item">
@@ -56,28 +53,43 @@
           </ul>
           <h3>Correo Electronico:</h3>
           <ul>
-            <li>notaria1buga@ucnc.com.co</li>
+            <li><p>primerabuga@supernotariado.gov.co</p> 
+              <p> notaria1buga@ucnc.com.co</p> 
+            <p>notariaprimeradebuga@yahoo.com</p></li>
           </ul>
         </div>
         <div class="col-sm-4 col-md-3 item">
           <h3>Horarios De Atencion:</h3>
           <ul>
-            <li>Lunes a Viernes 7:30 A.M a 12:30 P.M y 2:00 P.M a 6:00 P.M. Sábados de turno 9:00 A.M a 12:00 M.
-              Ayuda
+            <li>Lunes a Viernes 7:30 A.M a 12:30 P.M 
+              <br> 
+             y de 2:00 P.M a 6:00 P.M. 
+              <br>
+              Sábados de turno 9:00 A.M a 12:00 M.
             </li>
-
           </ul>
         </div>
-        <div class="col-lg-3 item social">
-          <a href="https://es-la.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a>
-          <a href="https://twitter.com/home" target="_blank"><i class="icon ion-social-twitter"></i></a>
-          <a href="https://www.youtube.com/" target="_blank"><i class="icon ion-social-youtube"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a>
-          <p class="copyright">Notaria Primera De Buga © 2022</p>
-        </div>
+        <!-- SOCIAL -->
+    
+        <ul class="wrapper col-lg-3 item social row justify-content-center">
+          <li class="icon facebook">
+            <span class="tooltip">Facebook</span>
+            <span><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></span>
+          </li>
+          <li class="icon twitter">
+            <span class="tooltip">Twitter</span>
+            <span><i class="fa fa-twitter"></i></span>
+          </li>
+          <li class="icon instagram">
+            <span class="tooltip">Instagram</span>
+            <span><i class="fa fa-instagram"></i></span>
+          </li>
+          <li class="icon youtube">
+            <span class="tooltip">Youtube</span>
+            <span><i class="fa fa-youtube"></i></span>
+          </li>
+        </ul>
       </div>
     </div>
   </footer>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
