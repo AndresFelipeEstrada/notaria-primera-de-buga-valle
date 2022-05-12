@@ -9,17 +9,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav navbar-center">
-        <li class="nav-item active text-center" aria-current="page" routerLinkActive="activebutton"
-          [routerLinkActiveOptions]="{exact: true}"><a class="nav-link active" aria-current="page"
-            routerLink="/inicio">INICIO</a></li>
-        <li class="nav-item text-center"><a class="nav-link" routerLink="/servicios"
-            routerLinkActive="activebutton">SERVICIOS</a></li>
-        <li class="nav-item text-center"><a class="nav-link" routerLink="/sobrenosotros"
-            routerLinkActive="activebutton">SOBRE NOSOTROS</a></li>
-        <li class="nav-item text-center"><a class="nav-link" routerLink="/novedades"
-            routerLinkActive="activebutton">NOVEDADES</a></li>
-        <li class="nav-item text-center"><a class="nav-link" routerLink="/contacto"
-            routerLinkActive="activebutton">CONTACTO</a></li>
+        <li class="nav-item text-center" aria-current="page">
+            <button (click)="Inicio()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-home"></i>INICIO</button>
+        <li class="nav-item text-center">
+          <button (click)="Servicios()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-cog"></i>SERVICIOS</button>
+        <li class="nav-item text-center">
+          <button (click)="SobreNosotros()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-users"></i>SOBRE NOSOTROS</button>
+        <li class="nav-item text-center">
+          <button (click)="Novedades()"  type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-newspaper-o"></i> NOVEDADES</button>
+        <li class="nav-item text-center">
+          <button (click)="Contacto()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-phone"></i> CONTACTO</button>
       </ul>
     </div>
     <img class="navbar-brand notario img-responsive" src="../assets/NOTARIO.png" alt="">
