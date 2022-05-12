@@ -26,6 +26,13 @@ a {
   text-decoration: none;
 }
 
+header{
+  height: 30vh;
+  text-align: center;
+  position: relative;
+  overflow: auto;
+}
+
 .logo {
   width: min(50vw, 200px);
   padding: 0;

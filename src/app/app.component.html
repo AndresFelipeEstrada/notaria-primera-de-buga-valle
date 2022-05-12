@@ -1,6 +1,10 @@
 <!-- NAVBAR -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header class="row justify-content-center align-items-center minh-100">
+  <h1 class="titulo">
+    Notaria Primera De Buga
+  </h1>
+</header>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-static-top">
   <div class="container-fluid">
     <img class="navbar-brand logo img-responsive" src="../assets/LOGO.png" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -10,20 +14,26 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav navbar-center">
         <li class="nav-item text-center" aria-current="page">
-            <button (click)="Inicio()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-home"></i>INICIO</button>
+          <button (click)="Inicio()" type="button" class="btn btn-outline-blue btn-lg"><i
+              class="fa fa-home"></i>INICIO</button>
         <li class="nav-item text-center">
-          <button (click)="Servicios()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-cog"></i>SERVICIOS</button>
+          <button (click)="Servicios()" type="button" class="btn btn-outline-blue btn-lg"><i
+              class="fa fa-cog"></i>SERVICIOS</button>
         <li class="nav-item text-center">
-          <button (click)="SobreNosotros()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-users"></i>SOBRE NOSOTROS</button>
+          <button (click)="SobreNosotros()" type="button" class="btn btn-outline-blue btn-lg"><i
+              class="fa fa-users"></i>SOBRE NOSOTROS</button>
         <li class="nav-item text-center">
-          <button (click)="Novedades()"  type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-newspaper-o"></i> NOVEDADES</button>
+          <button (click)="Novedades()" type="button" class="btn btn-outline-blue btn-lg"><i
+              class="fa fa-newspaper-o"></i> NOVEDADES</button>
         <li class="nav-item text-center">
-          <button (click)="Contacto()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-phone"></i> CONTACTO</button>
+          <button (click)="Contacto()" type="button" class="btn btn-outline-blue btn-lg"><i class="fa fa-phone"></i>
+            CONTACTO</button>
       </ul>
     </div>
     <img class="navbar-brand notario img-responsive" src="../assets/NOTARIO.png" alt="">
   </div>
 </nav>
+
 
 
 <router-outlet></router-outlet>
@@ -36,9 +46,9 @@
     <div class="container my-5">
 
       <div class="row justify-content-around">
-        <div class="col-sm-5 col-md-3 item" >
-        <img src="../assets/SIMBOLO 1.png" class="simbolo1" style="float:center;"height="150" loading="lazy" alt="">
-      </div>
+        <div class="col-sm-5 col-md-3 item">
+          <img src="../assets/SIMBOLO 1.png" class="simbolo1" style="float:center;" height="150" loading="lazy" alt="">
+        </div>
         <div class="col-sm-5 col-md-3 item text-center">
           <h3>Direccion:</h3>
           <ul>
@@ -56,23 +66,25 @@
           </ul>
           <h3>Correo Electronico:</h3>
           <ul>
-            <li><p>primerabuga@supernotariado.gov.co</p></li>
+            <li>
+              <p>primerabuga@supernotariado.gov.co</p>
+            </li>
           </ul>
         </div>
         <div class="col-sm-5 col-md-3 item">
           <h3>Horarios De Atencion:</h3>
           <ul>
-            <li>Lunes a Viernes 7:30 A.M a 12:30 P.M 
-              <br> 
-             y de 2:00 P.M a 6:00 P.M. 
+            <li>Lunes a Viernes 7:30 A.M a 12:30 P.M
+              <br>
+              y de 2:00 P.M a 6:00 P.M.
               <br>
               Sábados de turno 9:00 A.M a 12:00 M.
             </li>
-            
+
           </ul>
         </div>
         <!-- SOCIAL -->
-    
+
         <ul class="wrapper col-lg-3 item social row justify-content-center">
           <li class="icon facebook">
             <span class="tooltip">Facebook</span>
@@ -90,10 +102,10 @@
             <span class="tooltip">Youtube</span>
             <span><i class="fa fa-youtube"></i></span>
           </li>
-          
+
         </ul>
       </div>
-      
+
     </div>
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
