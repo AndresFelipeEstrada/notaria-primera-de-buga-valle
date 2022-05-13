@@ -11,7 +11,7 @@ import { ContactoModule } from './contacto/contacto.module';
 import { ServiciosModule } from './servicios/servicios.module';
 import { InicioModule } from './inicio/inicio.module';
 import { SobrenosotrosModule } from './sobrenosotros/sobrenosotros.module';
-import { NovedadesModule } from './novedades/novedades.module';
+//import { NovedadesModule } from './novedades/novedades.module';
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { NovedadesModule } from './novedades/novedades.module';
     BrowserModule,
     AppRoutingModule,
     ContactoModule,
-    NovedadesModule,
+    //NovedadesModule,
     ServiciosModule,
     SobrenosotrosModule,
     InicioModule
