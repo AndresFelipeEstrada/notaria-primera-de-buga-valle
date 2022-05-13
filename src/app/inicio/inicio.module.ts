@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InicioComponent } from './inicio.component';
-
-
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -10,10 +9,11 @@ import { InicioComponent } from './inicio.component';
   ],
     
   imports: [
-    CommonModule
+    CommonModule,
+    NgImageSliderModule,
   ],
   exports:[
-   InicioComponent
+   InicioComponent,
   ]
 })
 export class InicioModule { }

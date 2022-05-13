@@ -11,7 +11,6 @@ import { SobrenosotrosComponent } from './sobrenosotros.component';
   ],
   exports:[
     SobrenosotrosComponent
-
   ]
 })
 export class SobrenosotrosModule { }
