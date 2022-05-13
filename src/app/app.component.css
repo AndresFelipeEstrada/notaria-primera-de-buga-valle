@@ -33,6 +33,11 @@ header{
   overflow: auto;
 }
 
+.align-center{
+  align-items: center;
+  text-align: center;
+}
+
 .logo {
   width: min(50vw, 200px);
   padding: 0;
