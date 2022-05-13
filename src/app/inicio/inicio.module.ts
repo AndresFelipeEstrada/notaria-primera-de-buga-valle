@@ -12,9 +12,8 @@ import { InicioComponent } from './inicio.component';
   imports: [
     CommonModule
   ],
-
-  /*exports:[
+  exports:[
    InicioComponent
-  ]*/
+  ]
 })
 export class InicioModule { }

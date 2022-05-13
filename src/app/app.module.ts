@@ -11,6 +11,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ContactoModule } from './contacto/contacto.module';
 import { ServiciosModule } from './servicios/servicios.module';
+import { InicioModule } from './inicio/inicio.module';
 
 
 @NgModule({
@@ -18,14 +19,15 @@ import { ServiciosModule } from './servicios/servicios.module';
     AppComponent,
     SobrenosotrosComponent,
     NovedadesComponent,
-    InicioComponent,
+    
   ],
   imports: [
     BrowserModule,
     NgImageSliderModule,
     AppRoutingModule,
     ContactoModule,
-    ServiciosModule
+    ServiciosModule,
+    InicioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
