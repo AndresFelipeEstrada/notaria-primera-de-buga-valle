@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css','./footer.css']
 })
 export class AppComponent {
-  title = 'notaria-primera-de-buga-valle';
+  title = 'Notaria Primera De Buga Valle';
 
 
   constructor(private router:Router) {}
