@@ -1,10 +1,224 @@
-<h1>MODIFIQUE AQUI</h1>    
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
-<h1>MODIFIQUE AQUI</h1>  
+<section class="section services-section " id="services">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-5">
+                <div class="section-title">
+                    <h2>Nuestro Servicios</h2>     
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <!-- feaure box -->
+            <div (click)="scrollToAutenticacion()" class="col-sm-6 col-lg-4" >
+                <div class="feature-box-1">
+                    <img class="img-responsive mx-auto d-block" src="../../assets/AUTENTICACIÓN.png" alt=""> 
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div (click)="scrollToEscrituracion()" class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                        <img  class="img-responsive mx-auto d-block" src="../../assets/ESCRITURACIÓN.png" alt="">
+                    <!-- <div class="feature-content">
+                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                    </div> -->
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                        <img class="img-responsive mx-auto d-block" src="../../assets/DECLARACIONES EXTRAJUICIO.png" alt="">
+                    
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4 ">
+                <div class="feature-box-1 ">
+                        <img class="img-responsive mx-auto d-block" src="../../assets/HORARIO.png" alt="">
+                  
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4 ">
+                <div class="feature-box-1">
+                        <img class="img-responsive mx-auto d-block" src="../../assets/REGISTRO CIVIL.png" alt="">
+                   
+                </div>
+            </div>
+            <!-- / -->
+        </div>
+    </div>
+</section>
+
+
+<hr id="s5" />
+
+
+<!-- PRUEBA -->
+<div class="page">
+    <div class="timeline">
+      <div class="timeline__group">
+        <span class="timeline__year time" aria-hidden="true" id="autenticacion">AUTENTICACION</span>
+        <div class="timeline__cards">
+          <div class="timeline__card card">
+            <header class="card__header">
+              <time class="time">
+                <span class="time__day">AUTENTICACIÓN DE FIRMA Y CONTENIDO:</span>
+              </time>
+            </header>
+            <div class="card__content">
+              <p>Se autentica la firma y el contenido del documento. Se presenta quien va a autenticar con el documento y cédula original.</p>
+            </div>
+          </div>
+          <div class="timeline__card card">
+            <header class="card__header">
+              <div class="time">
+                <span class="time__day">AUTENTICACIÓN DE FIRMA:</span>
+              </div>
+            </header>
+            <div class="card__content">
+              <p>Se autentica solo la firma del documento. Se presenta quien va a autenticas con el documento y cédula original.</p>
+            </div>
+          </div>
+          <div class="timeline__card card">
+            <header class="card__header">
+              <div class="time">
+                <span class="time__day">AUTENTICACIÓN BIOMÉTRICA:</span>
+              </div>
+            </header>
+            <div class="card__content">
+              <p>Cotejo que se hace en línea con la registraduría para verificar que las huellas coincidan con las que se tomaron al memento de solicitar la cédula. Se presenta quien va a autenticar con el documento y cédula original.
+            </p>
+            </div>
+          </div>
+          <div class="timeline__card card">
+            <header class="card__header">
+              <div class="time">
+                <span class="time__day">AUTENTICACIÓN DE DOCUMENTOS:</span>
+              </div>
+            </header>
+            <div class="card__content">
+              <p>Autenticación de copia del original, copia de copia autenticada, y/o copia de copia simple. Se debe presentar el documento original y la copia a autenticar.
+            </p>
+            </div>
+          </div>
+          <div class="timeline__card card">
+            <header class="card__header">
+              <div class="time">
+                <span class="time__day">AUTENTICACIÓN DE FIRMA A RUEGO:</span>
+              </div>
+            </header>
+            <div class="card__content">
+              <p>Cuando la persona no sabe o no puede firmar, firma otra persona en su nombre. Se presentan los dos con el documento y las cédulas originales.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline__group">
+        <span class="timeline__year time" aria-hidden="true" id="escrituracion">ESCRITURACIÓN</span>
+        <div class="timeline__cards">
+          <div class="timeline__card card">
+            <header class="card__header">
+              <div class="time">
+                <span class="time__day">PODER GENERAL:</span>
+              </div>
+            </header>
+            <div class="card__content">
+              <p>Copias de cédulas de las dos partes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__cards">
+            <div class="timeline__card card">
+              <header class="card__header">
+                <div class="time">
+                  <span class="time__day">PERMISO DE SALIDA DEL PAIS:</span>
+                </div>
+              </header>
+              <div class="card__content">
+                <p>Registro civil autenticado (menor a 3 meses), copia de tarjeta de identidad (si tiene) y copias de cédulas de los padres.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__cards">
+            <div class="timeline__card card">
+              <header class="card__header">
+                <div class="time">
+                  <span class="time__day">COMPRAVENTA:</span>
+                </div>
+              </header>
+              <div class="card__content">
+                <p>Escritura, paz y salvos, certificado de tradición, y copias de cédulas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__cards">
+            <div class="timeline__card card">
+              <header class="card__header">
+                <div class="time">
+                  <span class="time__day">HIPOTECA:</span>
+                </div>
+              </header>
+              <div class="card__content">
+                <p>Escritura, paz y salvos, certificado de tradición y copias de cédulas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__cards">
+            <div class="timeline__card card">
+              <header class="card__header">
+                <time class="time">
+                  <span class="time__day">CANCELACIÓN DE HIPOTECA:</span>
+                </time>
+              </header>
+              <div class="card__content">
+                <p>Escritura, certificado de tradición y copias de cédulas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__cards">
+            <div class="timeline__card card">
+              <header class="card__header">
+                <time class="time">
+                  <span class="time__day">MATRIMONIO:</span>
+                </time>
+              </header>
+              <div class="card__content">
+                <p>Registros civiles de nacimiento autenticados (menores a 3 meses), copias de cédulas autenticadas, y solicitud de matrimonio autenticado</p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="timeline__group">
+        <span class="timeline__year time" aria-hidden="true">DECLARACIÓN EXTRAJUICIO</span>
+        <div class="timeline__cards">
+          <div class="timeline__card card">
+            <header class="card__header">
+              <time class="time" datetime="2008-08-18">
+                <span class="time__day">28</span>
+                <span class="time__month">Aug</span>
+              </time>          
+            </header>
+            <div class="card__content">
+              <p>Upon moving to Brooklyn that summer, I began photographing weddings in Chicago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="linktr">
+    <a href="https://linktr.ee/melnik909" target="_blank" class="linktr__goal r-link">Get more things from me 💪💪💪</a>
+  </div>
+  
