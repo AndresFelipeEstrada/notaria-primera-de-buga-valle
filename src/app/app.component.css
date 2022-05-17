@@ -26,22 +26,9 @@ a {
   text-decoration: none;
 }
 
-header{
-  height: 30vh;
-  text-align: center;
-  position: relative;
-  overflow: auto;
-}
-
-.align-center{
+.align-center {
   align-items: center;
   text-align: center;
-}
-
-.logo {
-  width: min(50vw, 200px);
-  padding: 0;
-  float: left;
 }
 
 .main-nav a {
@@ -79,18 +66,35 @@ header{
 
 .logo {
   width: min(50vw, 150px);
-  padding: 0;
-  float: left;
+  max-width: 100%;
+  margin: auto;
+  display: block;
 }
 
 .notario {
-  width: min(50vw, 400px);
-  padding: 4;
-  float: right;
+  width: min(60vw, 400px);
+  position: relative;
   max-width: 100%;
   height: auto;
+  margin: auto;
   display: block;
 }
+
+.titulo {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .row>div {
+  background: #f2f2f2;
+
+  border: 1px solid grey;
+} */
 
 .activebutton {
   background-color: #bddbfa;
