@@ -1,11 +1,12 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   line-height: 1.6;
   margin: 0;
   min-height: 100vh;
+}
+
+h4 {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 }
 
 ul {
@@ -90,12 +91,6 @@ a {
   justify-content: center;
 }
 
-/* .row>div {
-  background: #f2f2f2;
-
-  border: 1px solid grey;
-} */
-
 .activebutton {
   background-color: #bddbfa;
   border-radius: 10px;
@@ -106,4 +101,17 @@ a {
   font-size: 15px;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* Scroll to Top */
+.scroll-to-top{
+  position: fixed;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+.arrow{
+  height: 70px;
 }

@@ -8,8 +8,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
 
-  {path:'',redirectTo: 'inicio',pathMatch:'full'},
-      {path: '', redirectTo: 'inicio',pathMatch:'full'},
+      {path:'',redirectTo: 'inicio',pathMatch:'full'},
       {path: 'inicio', component: InicioComponent},
       {path: 'servicios', component: ServiciosComponent},
       {path: 'sobrenosotros', component: SobrenosotrosComponent},

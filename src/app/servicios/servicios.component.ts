@@ -18,6 +18,14 @@ export class ServiciosComponent implements OnInit {
     this.viewportScroller.scrollToAnchor('escrituracion')
   }
 
+  scrollToExtrajuicio(){
+    this.viewportScroller.scrollToAnchor('extrajuicio')
+  }
+
+  scrollToRegistroCivil(){
+    this.viewportScroller.scrollToAnchor('registrocivil')
+  }
+
   scrollingTop() {
     this.viewportScroller.scrollToPosition([0 , 0]);
   }
