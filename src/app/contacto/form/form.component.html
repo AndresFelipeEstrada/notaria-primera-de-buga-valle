@@ -1,0 +1,104 @@
+<div class="row d-flex justify-content-center align-items-center">
+    <div class="col-8">
+        <div class="feature-box-1">
+
+            <section class="mb-4">
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contactactanos</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Si Tienes Alguna Duda O Reclamo, Por Favor Envianos Un
+                    Mensaje.</p>
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="container col-md-9 mb-md-0 mb-5">
+                        <form (ngSummit)="onSubmit()" [formGroup]="registerForm">
+                            <!--Grid row-->
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" class="form-control" formControlName="name"
+                                        [ngClass]="{ 'is-invalid': form['name'].errors }" />
+                                    <label>Nombre</label>
+                                    <div *ngIf="form['name'].errors" class="invalid-feedback">
+                                        <div *ngIf="form['name'].errors">El nombre es obligatorio</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" class="form-control" formControlName="email"
+                                        [ngClass]="{ 'is-invalid': form['email'].errors }">
+                                    <label>Correo Electronico</label>
+                                    <div *ngIf="form['email'].errors" class="invalid-feedback">
+                                        <div *ngIf="form['email'].errors">El email es obligatorio</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                            <input type="text" class="form-control" formControlName="subject"
+                                [ngClass]="{ 'is-invalid': form['subject'].errors }">
+                            <label>Asunto</label>
+                            <div *ngIf="form['subject'].errors" class="invalid-feedback">
+                                <div *ngIf="form['subject'].errors">El asunto es obligatorio</div>
+                            </div>
+                            <!--Grid row-->
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" rows="2" class="form-control" rows="7"
+                                        formControlName="message"
+                                        [ngClass]="{ 'is-invalid': form['message'].errors }"></textarea>
+                                    <label>Mensaje</label>
+                                    <div *ngIf="form['message'].errors" class="invalid-feedback">
+                                        <div *ngIf="form['message'].errors">El asunto es obligatorio</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                            <div class="text-center">
+                                <button class="btn btn-primary mr-1" [disabled]="registerForm.invalid">Enviar</button>
+                                <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+                            </div>
+                        </form>
+
+
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                                <p>Buga - Carrera 15 # 6-47/51</p>
+                            </li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                <p>602 2371062</p>
+                            </li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                                <p>primerabuga@supernotariado.gov.co</p>
+                                <p>notaria1buga@ucnc.com.co</p>
+                                <p>notariaprimeradebuga@yahoo.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+            </section>
+            <!--Section: Contact v.2-->
