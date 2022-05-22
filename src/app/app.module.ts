@@ -10,6 +10,7 @@ import { ServiciosModule } from './servicios/servicios.module';
 import { InicioModule } from './inicio/inicio.module';
 import { SobrenosotrosModule } from './sobrenosotros/sobrenosotros.module';
 import { NovedadesModule } from './novedades/novedades.module';
+import { FooterModule } from './footer/footer.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { NovedadesModule } from './novedades/novedades.module';
     NovedadesModule,
     ServiciosModule,
     SobrenosotrosModule,
-    InicioModule
+    InicioModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
