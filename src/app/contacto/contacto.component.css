@@ -1,5 +1,235 @@
 
-p{
-  text-align: center;
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.card{
+  position: relative;
+  width: 450px;
+  height: 290px;
+  cursor: pointer;
+  border-radius: 16px ;
+  box-shadow: 0 0 13px 0px rgba(0,0,0,.3);
+  transition: .5s;
+  overflow: hidden;
+  margin: .85rem;
+  background-color: #bddbfa;
+
 }
 
+.card:hover{
+  height: 678px;
+  
+}
+
+.card img{
+  width: 44%;
+ 
+  border-radius: 16px;
+  transition: .5s;
+  
+}
+.card:hover img{
+  border-radius: 16px 16px 16px 16px;
+ 
+}
+
+.card .card-body{
+  padding: .5rem .85rem 1rem;
+  height: 0;
+  
+}
+
+.card .card-body p{
+  text-align: justify;
+  font-size: .9rem;
+  line-height: 25px;
+}
+
+.card .card-body div{
+  text-align: right;
+  width: 100%;
+}
+
+
+.imagen1{
+  position:relative;
+  left:110px;
+  top:5px;
+}
+
+
+.card-body2{
+  width:500px
+  
+}
+
+.texto{
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.mision{
+  text-align:center !important;
+  font-weight: bold;
+}
+
+.mision-vision{
+  text-align:center;
+}
+
+.organigrama{
+  text-align:center;
+}
+
+.tarjeta{
+  margin:0px auto;
+}
+
+.contenedor2{
+  background-color: white;
+  border-radius: 16px ;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+
+.card .imagen3{
+  width:100%
+}
+
+.card2{
+  position: relative;
+  width: 450px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 16px ;
+  
+  transition: .5s;
+  overflow: hidden;
+  margin: .85rem;
+
+ 
+}
+.card2:hover{
+  height: 890px;
+  border-radius:16px;
+}
+
+
+.card2 .imagen3{
+  width: 370px;
+  border-radius:16px;
+  transition: .5s;
+  text-align: center ;
+} 
+
+.imagen4{
+  width: 450px !important; 
+  height: 650px;
+
+  position:relative;
+  right:15px;
+  border-radius:16px;
+}
+
+body{margin-top:20px;}
+
+/* Feature Box
+---------------------*/
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+}
+/* .feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+} */
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #fc5356;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  color: #20247b;
+  font-weight: 600;
+}
+.feature-box-1 p {
+  margin: 0;
+}
+/* .feature-box-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: white;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+} */
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.section-title {
+    padding-bottom: 45px;
+}
+.section-title h2 {
+    font-weight: 700;
+    color: #289ffa;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #20247b;
+    padding-left: 15px;
+}
+
+
+.organigrama{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+a:hover{
+  color:#96c8f8;
+  
+}
