@@ -4,14 +4,14 @@
 
             <section class="mb-4">
                 <!--Section heading-->
-                <h2 class="h1-responsive font-weight-bold text-center my-4">Contactactanos</h2>
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contáctanos</h2>
                 <!--Section description-->
                 <p class="text-center w-responsive mx-auto mb-5">Si Tienes Alguna Duda O Reclamo, Por Favor Envianos Un
                     Mensaje.</p>
                 <div class="row">
                     <!--Grid column-->
                     <div class="container col-md-9 mb-md-0 mb-5">
-                        <form (ngSummit)="onSubmit()" [formGroup]="registerForm">
+                        <form (ngSubmit)="submit()" [formGroup]="registerForm">
                             <!--Grid row-->
                             <!--Grid column-->
                             <div class="col-md-6">
@@ -56,8 +56,8 @@
                             </div>
                             <!--Grid row-->
                             <div class="text-center">
-                                <button class="btn btn-primary mr-1" [disabled]="registerForm.invalid">Enviar</button>
-                                <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+                                <button type="submit" class="btn btn-primary mr-1"  [disabled]="registerForm.invalid">Enviar</button>
+                                <button type="reset" class="btn btn-secondary" (click)="onReset()" > Limpiar</button>
                             </div>
                         </form>
 
@@ -69,6 +69,10 @@
                     <!--Grid column-->
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0">
+                            <li><div>
+                                <img class="logo" src="../assets/LOGO.png" alt="">
+                              </div>
+                        </li>
                             <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path
