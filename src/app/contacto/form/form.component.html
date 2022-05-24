@@ -17,8 +17,7 @@
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" class="form-control" formControlName="name"
-                                        [ngClass]="{ 'is-invalid': form['name'].errors }" />
-                                    <label>Nombre</label>
+                                        [ngClass]="{ 'is-invalid': form['name'].errors }" placeholder="Nombre" />
                                     <div *ngIf="form['name'].errors" class="invalid-feedback">
                                         <div *ngIf="form['name'].errors">El nombre es obligatorio</div>
                                     </div>
@@ -28,8 +27,7 @@
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" class="form-control" formControlName="email"
-                                        [ngClass]="{ 'is-invalid': form['email'].errors }">
-                                    <label>Correo Electronico</label>
+                                        [ngClass]="{ 'is-invalid': form['email'].errors }" placeholder="Correo Electronico">
                                     <div *ngIf="form['email'].errors" class="invalid-feedback">
                                         <div *ngIf="form['email'].errors">El email es obligatorio</div>
                                     </div>
@@ -37,8 +35,7 @@
                             </div>
                             <!--Grid row-->
                             <input type="text" class="form-control" formControlName="subject"
-                                [ngClass]="{ 'is-invalid': form['subject'].errors }">
-                            <label>Asunto</label>
+                                [ngClass]="{ 'is-invalid': form['subject'].errors }" placeholder="Asunto">
                             <div *ngIf="form['subject'].errors" class="invalid-feedback">
                                 <div *ngIf="form['subject'].errors">El asunto es obligatorio</div>
                             </div>
@@ -47,8 +44,7 @@
                                 <div class="md-form">
                                     <textarea type="text" rows="2" class="form-control" rows="7"
                                         formControlName="message"
-                                        [ngClass]="{ 'is-invalid': form['message'].errors }"></textarea>
-                                    <label>Mensaje</label>
+                                        [ngClass]="{ 'is-invalid': form['message'].errors }" placeholder="Mensaje"></textarea>
                                     <div *ngIf="form['message'].errors" class="invalid-feedback">
                                         <div *ngIf="form['message'].errors">El asunto es obligatorio</div>
                                     </div>

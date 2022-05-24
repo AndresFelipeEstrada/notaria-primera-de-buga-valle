@@ -162,5 +162,26 @@ hr.style2 {
 	font-size: 1.2rem;
 	
 	transform: translateX(15%);	
-}
-  
+} 
+
+.container {
+	display: flex;
+  }
+
+.section {
+	padding: 100px 0;
+	position: relative;
+  }
+
+  .section-title {
+	padding-bottom: 45px;
+  }
+
+  .section-title h2 {
+	font-weight: 700;
+	color: #289ffa;
+	font-size: 45px;
+	margin: 0 0 15px;
+	border-left: 5px solid #20247b;
+	padding-left: 15px;
+  }
