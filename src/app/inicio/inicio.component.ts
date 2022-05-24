@@ -14,22 +14,22 @@ export class InicioComponent implements OnInit {
 
   imgCollection: Array<object> = [
     {
-      image: '/assets/IMG.JPG',
-      thumbImage: '/assets/IMG.JPG',
+      image1: '/assets/IMG7.jpg',
+      thumbImage: '/assets/IMG7.jpg',
     }, {
-      image: '/assets/IMG6.JPG',
+      image3: '/assets/IMG6.JPG',
       thumbImage: '/assets/IMG6.JPG',
     }, {
-      image: '/assets/IMG2.JPG',
+      image4: '/assets/IMG2.JPG',
       thumbImage: '/assets/IMG2.JPG',
     }, {
-      image: '/assets/IMG3.JPG',
+      image5: '/assets/IMG3.JPG',
       thumbImage: '/assets/IMG3.JPG',
     }, {
-      image: '/assets/IMG4.JPG',
+      image6: '/assets/IMG4.JPG',
       thumbImage: '/assets/IMG4.JPG',
     }, {
-      image: '/assets/IMG5.JPG',
+      image7: '/assets/IMG5.JPG',
       thumbImage: '/assets/IMG5.JPG',
     }
 ];

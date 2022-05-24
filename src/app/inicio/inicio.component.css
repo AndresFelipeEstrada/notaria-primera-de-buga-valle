@@ -31,6 +31,8 @@ hr.style2 {
 	overflow: hidden;
 }
 
+
+
 .gallery-image {
 	display: block;
 	width: 100%;
@@ -43,8 +45,10 @@ hr.style2 {
 	transform: scale(1.15);
 }
 
+
+
 .imagen{
-	padding: 20px 25%;
+	padding: 15px 22%;
 }
 @media screen and (max-width:950px){
 	.imagen{
@@ -65,3 +69,98 @@ hr.style2 {
 		margin: 0;
 	}
 }
+
+
+
+.card{
+	position: relative;
+	width: 450px;
+	height: 290px;
+	cursor: pointer;
+	border-radius: 16px ;
+	box-shadow: 0 0 13px 0px rgba(0,0,0,.3);
+	transition: .5s;
+	overflow: hidden;
+	margin: 0px auto;
+	background-color: #ffffff;
+  
+  }
+  
+  .card:hover{
+	height: 1200px;
+	
+  }
+  
+  .card img{
+	width: auto;
+	
+   
+	border-radius: 12px;
+	transition: .5s;
+	
+  }
+  .card:hover img{
+	border-radius: 16px 16px 16px 16px;
+   
+  }
+  
+  .card .card-body{
+	padding: .5rem .85rem rem;
+	height: 0;
+	
+  }
+  
+  .card .card-body p{
+	text-align: justify;
+	font-size: .9rem;
+	line-height: 25px;
+  }
+  
+  .card .card-body div{
+	text-align: right;
+	width: 100%;
+  }
+  
+  
+  .imagen1{
+	position:relative;
+	
+  }
+  
+  
+  .texto{
+	text-align: center;
+	vertical-align: middle;
+  }
+  
+  
+  .mision{
+	text-align:center !important;
+	font-weight: bold;
+  }
+  
+  .notario{
+	text-align:center;
+  }
+  .parrafo1{
+	text-align:center !important;
+  }
+  
+.contenedor2{
+	background-color: white;
+	border-radius: 16px ;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+  }
+
+.registro{
+	text-align: center;
+}
+
+.informacion{
+	font-size: 1.2rem;
+	
+	transform: translateX(15%);	
+}
+  
