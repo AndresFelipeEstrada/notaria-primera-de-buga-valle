@@ -78,3 +78,7 @@
     margin: auto;
     display: block;
   }
+
+  .texto{
+    text-overflow: ellipsis;
+  }

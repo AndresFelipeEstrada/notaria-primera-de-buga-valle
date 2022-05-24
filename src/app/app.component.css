@@ -109,6 +109,8 @@ a {
   cursor: pointer;
   bottom: 20px;
   right: 20px;
+  transition: all 300ms ease 0ms;
+  z-index: 99;
   
 }
 
