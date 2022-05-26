@@ -13,6 +13,7 @@ export class AppComponent {
     this.pageYoffset = window.pageYOffset;
   }
   title = 'NOTARÍA PRIMERA DE BUGA - VALLE';
+  image = '../assets/LOGO.png'
 
   constructor(private router: Router, private scroll: ViewportScroller) { }
 

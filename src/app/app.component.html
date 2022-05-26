@@ -1,8 +1,7 @@
 <header class="row justify-content-center align-items-center">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-6 col-sm-4">
-        <img class="navbar-brand logo img-fluid" src="../assets/LOGO.png" alt="">
+      <div class="col-6 col-sm-4"><a routerLink="inicio"><img class="navbar-brand logo img-fluid" src={{image}} alt=""></a>
       </div>
       <div class="col-6 col-sm-4 titulo">
         <h4>{{title}}</h4>
@@ -22,10 +21,10 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav navbar-center">
-        <li class="nav-item text-center" aria-current="page">
-          <button (click)="Inicio()" type="button" class="btn btn-outline-blue btn-lg"><i
+    <div class="collapse navbar-collapse" id="navbarNav" >
+      <ul class="navbar-nav navbar-center mr-auto">
+        <li class="nav-item active text-center">
+          <button (click)="Inicio() " type="button" class="btn btn-outline-blue btn-lg"><i
               class="fa fa-home"></i>INICIO</button>
         <li class="nav-item text-center">
           <button (click)="Servicios()" type="button" class="btn btn-outline-blue btn-lg"><i
