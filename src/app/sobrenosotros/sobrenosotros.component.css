@@ -9,6 +9,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top:20px;
   
 }
 .card{
@@ -26,8 +27,8 @@ body{
 
 
 .card:hover{
-  height: 700px !important;
-  
+  height: 680px !important;
+ 
 }
 
 .card img{
@@ -42,35 +43,11 @@ body{
  
 }
 
-.card .card-body{
-  padding: .5rem .5rem 1rem ;
-  height: 0;
-  
-}
-
-.card .card-body p{
-  text-align: justify;
-  font-size: .9rem;
-  line-height: 25px;
-}
-
-.card .card-body div{
-  text-align: right;
-  width: 100%;
-}
-
-
 .imagen1{
   position:relative;
   left:10px;
-  top:15px;
+  top:20px;
   width: 95% !important;
-  
-}
-
-
-.card-body2{
-  width:500px
   
 }
 
@@ -117,17 +94,18 @@ body{
 }
 
 .card2{
-  position: relative;
+ 
   width: 450px;
   height: 290px;
-  cursor: pointer;
+  
   border-radius: 16px ;
   
   transition: .5s;
   overflow: hidden;
-  margin: .85rem;
- 
+  
+  
 }
+
 .card2:hover{
   height: 670px;
   border-radius:16px;
@@ -138,7 +116,7 @@ body{
   width: 370px;
   border-radius:16px;
   transition: .5s;
-  text-align: center ;
+ 
 } 
 
 .imagen4{
@@ -150,7 +128,17 @@ body{
   border-radius:16px;
 }
 
-body{margin-top:20px;}
+
+.contenedor {
+  text-align: justify;
+  font-size: .9rem;
+  line-height: 25px;
+  background-color: white;
+  padding: 10px;
+  position:relative;
+  top:35px ;
+   
+}
 
 /* Feature Box
 ---------------------*/
